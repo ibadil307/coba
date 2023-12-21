@@ -1,0 +1,104 @@
+.rightbar-wrap {
+    position: fixed !important;
+    height: 100%;
+    width: var(--gomobileuxpro-rightbar-width);
+    top: 0;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 8 !important;
+    opacity: 1;
+    right: calc((var(--gomobileuxpro-sidebar-width) + 20px) * (-1));
+    padding-top: calc(env(safe-area-inset-top) + 20px);
+    @extend .transition-05;
+
+    .rightbar {
+        float: left;
+        display: block;
+        width: 100%;
+        padding: 0 1em 1em 1rem;
+        position: relative;
+        z-index: 1;
+        color: var(--gomobileuxpro-theme-color);
+
+        .form-control,
+        .form-select,
+        .chosen-container {
+            border-color: rgba(255, 255, 255, 0.5);
+            color: var(--gomobileuxpro-theme-color);
+
+            option {
+                color: var(--gomobileuxpro-theme-text);
+            }
+        }
+    }
+
+}
+
+.filter-opening {
+    .main {
+        left: auto;
+    }
+}
+
+.filter-open {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    body {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .rightbar-wrap {
+        right: 0;
+    }
+
+    .main {
+        top: 100px;
+        left: auto;
+        right: var(--gomobileuxpro-sidebar-width);
+        transform: scale(1);
+        position: relative;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+        border-radius: var(--gomobileuxpro-rounded);
+
+        &:after {
+            left: auto;
+            border-radius: 0 15px 15px 0;
+            right: -15px;
+            top: 2%;
+            z-index: -1;
+            opacity: 0.2;
+            box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .header {
+            border-radius: var(--gomobileuxpro-rounded);
+        }
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .filter-opening {
+        .main {
+            top: 10px;
+            transform: none;
+            left: calc(var(--gomobileuxpro-sidebar-width) + 15px);
+        }
+
+    }
+
+    .filter-open {
+        .main {
+            left: 10px;
+        }
+
+        .sidebar-wrap {
+            left: calc((var(--gomobileuxpro-sidebar-width) + 20px) * (-1)) !important;
+        }
+    }
+}

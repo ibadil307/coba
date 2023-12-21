@@ -1,0 +1,191 @@
+.dark-mode {
+    --gomobileuxpro-formelement-bg: transparent;
+
+    /* color schemes */
+    --gomobileuxpro-theme-bg-rgb: 2, 8, 37;
+    --gomobileuxpro-theme-bg: rgb(2, 8, 37);
+    --gomobileuxpro-theme-bg-2: #1b286d;
+    --gomobileuxpro-theme: #4b5ebd;
+    --gomobileuxpro-theme-rgb: 102, 127, 255;
+    --gomobileuxpro-theme-lighten: #667fff;
+    --gomobileuxpro-theme-darken: #02092c;
+    --gomobileuxpro-theme-color: #ffffff;
+    --gomobileuxpro-theme-text: #ffffff;
+    --gomobileuxpro-theme-text-secondary: rgba(255, 255, 255, 0.75);
+    --gomobileuxpro-border-color: rgba(255, 255, 255, 0.1);
+    --gomobileuxpro-header-text: #ffffff;
+
+    /* gradient text colors */
+    --gomobileuxpro-theme-text-grad-1: #dd0093;
+    --gomobileuxpro-theme-text-grad-2: #3f22c3;
+
+    .theme-blue {
+        /* color schemes */
+        --gomobileuxpro-theme: #2398ff;
+        --gomobileuxpro-theme-rgb: 35, 152, 255;
+        --gomobileuxpro-theme-lighten: #60b5ff;
+        --gomobileuxpro-theme-darken: #0072d6;
+
+        /* background */
+        --gomobileuxpro-theme-bg-rgb: 0, 25, 58;
+        --gomobileuxpro-theme-bg: #00193a;
+        --gomobileuxpro-theme-bg-2: #004094;
+
+        /* gradient text colors */
+        --gomobileuxpro-theme-text-grad-1: #dd0093;
+        --gomobileuxpro-theme-text-grad-2: #3f22c3;
+    }
+
+    .theme-indigo {
+        /* color schemes */
+        --gomobileuxpro-theme: #5262bd;
+        --gomobileuxpro-theme-rgb: 63, 81, 181;
+        --gomobileuxpro-theme-lighten: #7e8bd4;
+        --gomobileuxpro-theme-darken: #1c2c88;
+
+        /* background */
+        --gomobileuxpro-theme-bg-rgb: 4, 11, 54;
+        --gomobileuxpro-theme-bg: #040b36;
+        --gomobileuxpro-theme-bg-2: #162477;
+
+        /* gradient text colors */
+        --gomobileuxpro-theme-text-grad-1: #ff5722;
+        --gomobileuxpro-theme-text-grad-2: #9c27b0;
+    }
+
+    .theme-purple {
+        /* color schemes */
+        --gomobileuxpro-theme: #6d42b6;
+        --gomobileuxpro-theme-rgb: 103, 58, 183;
+        --gomobileuxpro-theme-lighten: #9d74e2;
+        --gomobileuxpro-theme-darken: #3f138a;
+
+        /* background */
+        --gomobileuxpro-theme-bg-rgb: 16, 0, 46;
+        --gomobileuxpro-theme-bg: rgb(16, 0, 46);
+        --gomobileuxpro-theme-bg-2: #36176b;
+
+        /* gradient text colors */
+        --gomobileuxpro-theme-text-grad-1: #e91e63;
+        --gomobileuxpro-theme-text-grad-2: #3f51b5;
+    }
+
+    .theme-pink {
+        /* color schemes */
+        --gomobileuxpro-theme: #ff096d;
+        --gomobileuxpro-theme-rgb: 255, 9, 109;
+        --gomobileuxpro-theme-lighten: #ff5d9e;
+        --gomobileuxpro-theme-darken: #bb004b;
+
+        /* background */
+        --gomobileuxpro-theme-bg-rgb: 43, 0, 18;
+        --gomobileuxpro-theme-bg: rgb(43, 0, 18);
+        --gomobileuxpro-theme-bg-2: #660029;
+
+        /* gradient text colors */
+        --gomobileuxpro-theme-text-grad-1: #b33cc7;
+        --gomobileuxpro-theme-text-grad-2: #3f51b5;
+    }
+
+    .theme-red {
+        /* color schemes */
+        --gomobileuxpro-theme: #f44034;
+        --gomobileuxpro-theme-rgb: 244, 64, 52;
+        --gomobileuxpro-theme-lighten: #ff847b;
+        --gomobileuxpro-theme-darken: #cc1b0e;
+
+        /* background */
+        --gomobileuxpro-theme-bg-rgb: 43, 3, 0;
+        --gomobileuxpro-theme-bg: #2b0300;
+        --gomobileuxpro-theme-bg-2: #720f06;
+
+        /* gradient text colors */
+        --gomobileuxpro-theme-text-grad-1: #ff073d;
+        --gomobileuxpro-theme-text-grad-2: #9c27b0;
+    }
+
+    .theme-orange {
+        /* color schemes */
+        --gomobileuxpro-theme: #ff9800;
+        --gomobileuxpro-theme-rgb: 255, 152, 0;
+        --gomobileuxpro-theme-lighten: #ffca38;
+        --gomobileuxpro-theme-darken: #db7c00;
+
+        /* background */
+        --gomobileuxpro-theme-bg-rgb: 39, 23, 0;
+        --gomobileuxpro-theme-bg: #271700;
+        --gomobileuxpro-theme-bg-2: #6d4100;
+
+        /* gradient text colors */
+        --gomobileuxpro-theme-text-grad-1: #00bcd4;
+        --gomobileuxpro-theme-text-grad-2: #203191;
+    }
+
+    .theme-yellow {
+        /* color schemes */
+        --gomobileuxpro-theme: #ffc107;
+        --gomobileuxpro-theme-rgb: 235, 187, 31;
+        --gomobileuxpro-theme-lighten: #ffdb6e;
+        --gomobileuxpro-theme-darken: #e49c00;
+
+        /* background */
+        --gomobileuxpro-theme-bg-rgb: 31, 23, 0;
+        --gomobileuxpro-theme-bg: #1f1700;
+        --gomobileuxpro-theme-bg-2: #503c00;
+
+        /* gradient text colors */
+        --gomobileuxpro-theme-text-grad-1: #e91e63;
+        --gomobileuxpro-theme-text-grad-2: #3f51b5;
+    }
+
+    .theme-green {
+        /* color schemes */
+        --gomobileuxpro-theme: #119b55;
+        --gomobileuxpro-theme-rgb: 17, 155, 85;
+        --gomobileuxpro-theme-lighten: #35c776;
+        --gomobileuxpro-theme-darken: #006935;
+
+        /* background */
+        --gomobileuxpro-theme-bg-rgb: 0, 31, 15;
+        --gomobileuxpro-theme-bg: rgb(0, 31, 15);
+        --gomobileuxpro-theme-bg-2: #006331;
+
+        /* gradient text colors */
+        --gomobileuxpro-theme-text-grad-1: #8700f5;
+        --gomobileuxpro-theme-text-grad-2: #ff075a;
+    }
+
+    .theme-cyan {
+        /* color schemes */
+        --gomobileuxpro-theme: #03a9f4;
+        --gomobileuxpro-theme-rgb: 3, 169, 244;
+        --gomobileuxpro-theme-lighten: #5bcbff;
+        --gomobileuxpro-theme-darken: #0083c0;
+
+        /* background */
+        --gomobileuxpro-theme-bg-rgb: 0, 21, 31;
+        --gomobileuxpro-theme-bg: #00151f;
+        --gomobileuxpro-theme-bg-2: #065e86;
+
+        /* gradient text colors */
+        --gomobileuxpro-theme-text-grad-1: #e91e63;
+        --gomobileuxpro-theme-text-grad-2: #3f51b5;
+    }
+
+    .theme-teal {
+        /* color schemes */
+        --gomobileuxpro-theme: #009688;
+        --gomobileuxpro-theme-rgb: 101, 175, 170;
+        --gomobileuxpro-theme-lighten: #2cb3a5;
+        --gomobileuxpro-theme-darken: #005a51;
+
+        /* background */
+        --gomobileuxpro-theme-bg-rgb: 0, 37, 34;
+        --gomobileuxpro-theme-bg: #001d1a;
+        --gomobileuxpro-theme-bg-2: #035c53;
+
+        /* gradient text colors */
+        --gomobileuxpro-theme-text-grad-1: #ff5722;
+        --gomobileuxpro-theme-text-grad-2: #9c27b0;
+    }
+}

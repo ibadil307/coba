@@ -1,0 +1,74 @@
+/* tags */
+.tag {
+    height: 32px;
+    line-height: 30px;
+    vertical-align: middle;
+    border-radius: 15px;
+    padding: 1px 15px;
+    background-color: rgba(var(--gomobileuxpro-theme-rgb), 0.1);
+    color: var(--gomobileuxpro-theme);
+    display: inline-block;
+
+    figure {
+        vertical-align: middle;
+
+        &:first-child {
+            margin-left: -14px;
+        }
+
+        &:last-child {
+            margin-right: -14px;
+        }
+    }
+
+    &>i {
+        margin-right: 5px;
+        font-size: 16px;
+        display: inline-block;
+        vertical-align: top;
+
+        &:first-child {
+            margin-left: -14px;
+        }
+
+        &:last-child {
+            margin-right: -7px;
+        }
+    }
+
+    &.tag-sm {
+        height: 22px;
+        line-height: 20px;
+        vertical-align: middle;
+        font-size: 12px;
+        padding: 1px 10px;
+
+        &>i {
+            margin-right: 3px;
+            font-size: 12px;
+
+            &:first-child {
+                margin-left: -3px;
+            }
+
+            &:last-child {
+                margin-right: -3px;
+            }
+        }
+    }
+
+    &.tag-lg {
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+
+
+    &:hover,
+    &:focus,
+    &.active {
+        background-color: var(--gomobileuxpro-theme-darken);
+        color: var(--gomobileuxpro-theme-color);
+    }
+
+}

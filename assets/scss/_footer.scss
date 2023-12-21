@@ -1,0 +1,13 @@
+.footer {
+    padding: 10px 0 calc(10px + env(safe-area-inset-bottom)) 0;
+
+    .nav {
+        &.small {
+            .nav-item {
+                .nav-link {
+                    padding: 0 var(--bs-nav-link-padding-x);
+                }
+            }
+        }
+    }
+}

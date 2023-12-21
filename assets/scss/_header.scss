@@ -1,0 +1,131 @@
+.navbar-brand {
+    font-size: var(--fontSize);
+
+    h5 {
+        margin-bottom: 0;
+    }
+
+    img {
+        vertical-align: middle;
+        max-height: 50px;
+    }
+
+    .logo-icon {
+        height: 40px;
+        width: 40px;
+        padding: 5px;
+        line-height: 30px;
+        border-radius: 10px;
+        display: block;
+        text-align: center;
+        vertical-align: middle;
+
+        img {
+            vertical-align: top;
+            max-width: 30px;
+        }
+    }
+
+    .getabel {
+        position: absolute;
+        left: 0px;
+        top: -16px;
+        font-size: 9px;
+        padding: 1px 5px 0px 5px;
+        background: var(--gomobileuxpro-theme);
+        color: var(--gomobileuxpro-theme-color);
+        text-align: center;
+        display: block;
+        border-radius: 0;
+    }
+}
+
+.header {
+    position: relative;
+    padding: calc(10px + env(safe-area-inset-top)) 0 10px 0;
+    border-radius: var(--gomobileuxpro-rounded) var(--gomobileuxpro-rounded);
+    z-index: 9 !important;
+    @extend .transition-05;
+
+    &.active {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10);
+        background-color: var(--gomobileuxpro-theme-color);
+    }
+
+    .search-wrapper {
+        position: absolute;
+        top: -150px;
+        right: 0;
+        width: 100%;
+        height: auto;
+        padding: calc(15px + env(safe-area-inset-top)) 0rem 15px 0rem;
+        background-color: var(--gomobileuxpro-theme-color);
+        z-index: 1;
+        border-radius: var(--gomobileuxpro-rounded);
+        opacity: 0;
+        @extend .transition-05;
+    }
+
+    .tempdata {
+        top: -2px;
+        position: relative;
+
+        .tempimage {
+            width: 50px;
+        }
+    }
+}
+
+.search-open {
+    .search-wrapper {
+        top: 0;
+        right: 0;
+        padding: calc(15px + env(safe-area-inset-top)) 1rem 15px 1rem;
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .header {
+        .search-btn {
+            display: none;
+        }
+
+        .search-wrapper {
+            position: relative;
+            top: 0;
+            left: 0;
+            padding: 0;
+            opacity: 1;
+            background-color: transparent;
+
+
+            .search-btn {
+                display: none;
+            }
+        }
+
+        &:not(.active) {
+            .search-wrapper {
+                .form-control {
+                    border-color: transparent !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:374px) {
+    .header {
+        &>div {
+            --bs-gutter-x: 0.6rem;
+        }
+
+        .avatar.avatar-44 {
+            line-height: 40px;
+            height: 40px;
+            width: 40px;
+        }
+    }
+}
